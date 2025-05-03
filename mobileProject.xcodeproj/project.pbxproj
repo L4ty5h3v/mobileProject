@@ -35,16 +35,6 @@
 			path = mobileProject;
 			sourceTree = "<group>";
 		};
-		8E3E8AB62DC606BF0094A278 /* mobileProjectTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mobileProjectTests;
-			sourceTree = "<group>";
-		};
-		8E3E8AC02DC606BF0094A278 /* mobileProjectUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mobileProjectUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				8E3E8AA82DC606BE0094A278 /* mobileProject */,
-				8E3E8AB62DC606BF0094A278 /* mobileProjectTests */,
-				8E3E8AC02DC606BF0094A278 /* mobileProjectUITests */,
 				8E3E8AA72DC606BE0094A278 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				8E3E8AB52DC606BF0094A278 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8E3E8AB62DC606BF0094A278 /* mobileProjectTests */,
-			);
 			name = mobileProjectTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				8E3E8ABF2DC606BF0094A278 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8E3E8AC02DC606BF0094A278 /* mobileProjectUITests */,
 			);
 			name = mobileProjectUITests;
 			packageProductDependencies = (
